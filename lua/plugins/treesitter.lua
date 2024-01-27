@@ -12,3 +12,4 @@ require'nvim-treesitter.configs'.setup {
         max_file_lines = nil,
     }
 }
+require("nvim-treesitter.install").prefer_git = true
