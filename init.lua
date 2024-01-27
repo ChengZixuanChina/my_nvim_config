@@ -1,0 +1,6 @@
+require("core.options")
+require("core.keymaps")
+require("plugins.plugins-setup")
+require("plugins.onedark")
+require("plugins.lualine")
+require("plugins.nvimtree")
