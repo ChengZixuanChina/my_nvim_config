@@ -18,11 +18,13 @@ local plugins = {
     {
         'nvim-lualine/lualine.nvim',
         dependencies = { 'nvim-tree/nvim-web-devicons' }
-    },
+    }, -- 底部栏
     {
         "nvim-tree/nvim-tree.lua",
         dependencies = { 'nvim-tree/nvim-web-devicons' }
-    }
+    }, -- 文档树
+    "nvim-treesitter/nvim-treesitter", -- 语法高亮
+    "p00f/nvim-ts-rainbow" -- 配合treesitter，不同括号颜色区分
 }
 
 require("lazy").setup(plugins, opts)
